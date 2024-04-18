@@ -1154,7 +1154,7 @@
       },
       {
         "Type": "Override",
-        "Name": "Aura",
+        "Name": "Aura (NEW)",
         "ID": "CID_397_Athena_Commando_F_TreasureHunterFashion",
         "Message": null,
         "HeroDefinition": "/Game/Athena/Heroes/Hero_CardboardCrew_Holiday",
