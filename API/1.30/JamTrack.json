@@ -1,0 +1,32 @@
+{
+    "pakchunk20-WindowsClient": {
+        "enabled": true,
+        "mapID": "696cb91e-4bbd-ffef-d7f4-b1ac1d94aef9",
+        "uid": "GalaxySwapper",
+        "Download": {
+            "type": "zip",
+            "downloadUrl": "http://jamtrack.wslt.xyz/696cb91e-4bbd-ffef-d7f4-b1ac1d94aef9.zip",
+            "overrideFile": "pakchunk10optional-WindowsClient"
+        },
+        "BundleSourceGameCustom": {
+            "version": "7",
+            "downloadUrl": "{0}-https%3A%2F%2Ffn-service-datastorage-live-uefn-public.eeef.live.use1a.on.epicgames.com%2Fapi%2Fv1%2Fredirect%2Ffortnite%2Fvalkyrie%2Fcooked-content%2F696cb91e-4bbd-ffef-d7f4-b1ac1d94aef9%2F29.10.32391220%2Fv4%2Fe9e3852a-a6e7-4fc7-99ea-c294df32908c%2F",
+            "baseUrl": "https://fn-service-datastorage-live-uefn-public.eeef.live.use1a.on.epicgames.com/api/v1/redirect/fortnite/valkyrie/cooked-content/{0}/29.10.32391220/v4/e9e3852a-a6e7-4fc7-99ea-c294df32908c/"
+        },
+        "pakchunk10-WindowsClient": {
+            "enabled": true,
+            "mapID": "a5d415fc-4602-87a6-2aff-589d3157a636",
+            "uid": "GalaxySwapper",
+            "Download": {
+                "type": "zip",
+                "downloadUrl": "http://jamtrack.wslt.xyz/a5d415fc-4602-87a6-2aff-589d3157a636.zip",
+                "overrideFile": "pakchunk11optional-WindowsClient"
+            },
+            "BundleSourceGameCustom": {
+                "version": "7",
+                "downloadUrl": "{0}-https%3A%2F%2Ffn-service-datastorage-live-uefn-public.eeef.live.use1a.on.epicgames.com%2Fapi%2Fv1%2Fredirect%2Ffortnite%2Fvalkyrie%2Fcooked-content%2Fa5d415fc-4602-87a6-2aff-589d3157a636%2F29.10.32391220%2Fv5%2F93c4b4ee-5034-4368-92a9-a9b2b0f4dae0%2F",
+                "baseUrl": "https://fn-service-datastorage-live-uefn-public.eeef.live.use1a.on.epicgames.com/api/v1/redirect/fortnite/valkyrie/cooked-content/{0}/29.10.32391220/v5/93c4b4ee-5034-4368-92a9-a9b2b0f4dae0/"
+            }
+        }
+    }
+}

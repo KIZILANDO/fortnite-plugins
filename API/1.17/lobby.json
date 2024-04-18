@@ -1,0 +1,186 @@
+{
+    "Enabled": true,
+    "Icon": "https://github.com/GalaxySwapperOfficial/Galaxy-Swapper-API/blob/main/In%20Game/Icons/LobbyThumbnail.png?raw=true",
+    "Array": [
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season1_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season1.png",
+            "Name": "Season 1",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season2_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season2.png",
+            "Name": "Season 2",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season4_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season4.png",
+            "Name": "Season 4",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season5_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season5.png",
+            "Name": "Season 5",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season6_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season6.png",
+            "Name": "Season 6",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season7_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season7.png",
+            "Name": "Season 7",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season8_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season8.png",
+            "Name": "Season 8",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season9_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Season9.png",
+            "Name": "Season 9",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/SeasonX_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/SeasonX.png",
+            "Name": "Season X",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season2_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season2.png",
+            "Name": "Chapter 2 Season 2",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season4_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season4.png",
+            "Name": "Chapter 2 Season 4",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season5_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season5.png",
+            "Name": "Chapter 2 Season 5",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season6_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season6.png",
+            "Name": "Chapter 2 Season 6",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season7_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season7.png",
+            "Name": "Chapter 2 Season 7",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season8_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH2Season8.png",
+            "Name": "Chapter 2 Season 8",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season1_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season1.png",
+            "Name": "Chapter 3 Season 1",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season2_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season2.png",
+            "Name": "Chapter 3 Season 2",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season3_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season3.png",
+            "Name": "Chapter 3 Season 3",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season4_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH3Season4.png",
+            "Name": "Chapter 3 Season 4",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season1_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season1.png",
+            "Name": "Chapter 4 Season 1",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season2_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season2.png",
+            "Name": "Chapter 4 Season 2",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season3_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season3.png",
+            "Name": "Chapter 4 Season 3",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season4_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/CH4Season4.png",
+            "Name": "Chapter 4 Season 4",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2019_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2019.png",
+            "Name": "Winterfest 2019",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2020_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2020.png",
+            "Name": "Winterfest 2020",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2021_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2021.png",
+            "Name": "Winterfest 2021",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2022_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Winterfest2022.png",
+            "Name": "Winterfest 2022",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Fortnitemares2020_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Fortnitemares2020.png",
+            "Name": "Fortnitemares 2020",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Fortnitemares2021_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Fortnitemares2021.jpeg",
+            "Name": "Fortnitemares 2021",
+            "IsNsfw": false
+        },
+        {
+            "Preview": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Fortnitemares2022_Preview.png",
+            "Download": "https://raw.githubusercontent.com/GalaxySwapperOfficial/Galaxy-Swapper-API/main/In%20Game/Icons/Lobby/Fortnitemares2022.png",
+            "Name": "Fortnitemares 2022",
+            "IsNsfw": false
+        }
+    ]
+}

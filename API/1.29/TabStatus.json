@@ -1,0 +1,34 @@
+{
+    "Characters": {
+        "enabled": true,
+        "reason": "Skins are currently unavailable until they are updated for the new season!"
+    },
+    "Backpacks": {
+        "enabled": false,
+        "reason": "Backblings are currently disabled until they are updated for the new swapping method.\n\nThank you for your patience."
+    },
+    "Pickaxes": {
+        "enabled": true,
+        "reason": "Pickaxes are currently unavailable until they are updated for the new season!"
+    },
+    "Dances": {
+        "enabled": true,
+        "reason": "Emotes are currently disabled until they are updated for the new swapping method.\n\nThank you for your patience."
+    },
+    "Gliders": {
+        "enabled": true,
+        "reason": "Gliders are currently disabled until they are updated for the new swapping method.\n\nThank you for your patience."
+    },
+    "Weapons": {
+        "enabled": true,
+        "reason": null
+    },
+    "Misc": {
+        "enabled": true,
+        "reason": null
+    },
+    "Plugins": {
+        "enabled": true,
+        "reason": null
+    }
+}

@@ -1,0 +1,1461 @@
+{
+    "Downloadables": [
+      {
+        "tag": "BR",
+        "version": 21,
+        "zip": "http://br.wslt.xyz/uefn.zip"
+      },
+      {
+        "tag": "BR-2",
+        "version": 21,
+        "zip": "http://br-2.wslt.xyz/uefn.zip"
+      },
+      {
+        "tag": "BR-3",
+        "version": 21,
+        "zip": "http://br-3.wslt.xyz/uefn.zip"
+      },
+      {
+        "tag": "BR-4",
+        "version": 21,
+        "zip": "http://br-4.wslt.xyz/uefn.zip"
+      },
+      {
+        "tag": "BR-5",
+        "version": 21,
+        "zip": "http://br-5.wslt.xyz/uefn.zip"
+      },
+      {
+        "tag": "NSFW",
+        "version": 21,
+        "zip": "http://nsfw.wslt.xyz/uefn.zip"
+      },
+      {
+        "tag": "CUSTOM",
+        "version": 21,
+        "zip": "http://custom.wslt.xyz/uefn.zip"
+      }
+    ],
+    "Slots": [
+      "pakchunk0optional-WindowsClient",
+      "pakchunk2optional-WindowsClient",
+      "pakchunk5optional-WindowsClient",
+      "pakchunk7optional-WindowsClient",
+      "pakchunk8optional-WindowsClient",
+      "pakchunk9optional-WindowsClient"
+    ],
+    "Version": 1,
+    "Enabled": true,
+    "Swaps": [
+      {
+        "Type": "Override",
+        "Name": "Ghoul Trooper",
+        "ID": "CID_029_Athena_Commando_F_Halloween",
+        "HeroDefinition": "/Game/Athena/Heroes/HID_029_Athena_Commando_F_Halloween",
+        "Assets": [
+          {
+            "AssetPath": "/Game/Athena/Items/Cosmetics/Characters/CID_029_Athena_Commando_F_Halloween",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_029_Athena_Body_Halloween.CP_029_Athena_Body_Halloween",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Heads/F_Med_HIS_Ramirez_Head_HW01_ATH.F_Med_HIS_Ramirez_Head_HW01_ATH",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Hats/Ramirez_Glasses.Ramirez_Glasses",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Athena/Heroes/Meshes/Heads/F_Med_HIS_Ramirez_Head_HW01_ATH",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Ghoul Trooper",
+        "Description": "Epic ghoul trooper outfit.",
+        "Introduction": "Cosmetics.Filter.Season.1"
+      },
+      {
+        "Type": "Override",
+        "Name": "Renegade Raider",
+        "ID": "CID_028_Athena_Commando_F",
+        "HeroDefinition": "/Game/Athena/Heroes/HID_028_Athena_Commando_F",
+        "Assets": [
+          {
+            "AssetPath": "/Game/Athena/Items/Cosmetics/Characters/CID_028_Athena_Commando_F",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_028_Athena_Body.CP_028_Athena_Body",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Heads/F_MED_ASN_Sarah_Head_02_ATH.F_MED_ASN_Sarah_Head_02_ATH",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Hats/Hat_F_Commando_08_V01.Hat_F_Commando_08_V01",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/Hats/Hat_F_Commando_08_V01",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Renegade Raider",
+        "Description": "Rare renegade raider outfit.",
+        "Introduction": "Cosmetics.Filter.Season.1"
+      },
+      {
+        "Type": "Override",
+        "Name": "Blaze",
+        "ID": "CID_784_Athena_Commando_F_RenegadeRaiderFire",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_784_Athena_Commando_F_RenegadeRaiderFire",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_784_Athena_Commando_F_RenegadeRaiderFire",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RenegadeRaiderFire.CP_Athena_Body_F_RenegadeRaiderFire",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RenegadeRaiderFire.CP_Head_F_RenegadeRaiderFire",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_RenegadeRaiderFire.CP_Hat_F_Commando_RenegadeRaiderFire",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_RenegadeRaiderFire",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Blaze",
+        "Description": "Fill the world with flames.",
+        "Introduction": "Cosmetics.Filter.Season.13"
+      },
+      {
+        "Type": "Override",
+        "Name": "Gingerbread Raider",
+        "ID": "CID_970_Athena_Commando_F_RenegadeRaiderHoliday",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_970_Athena_Commando_F_RenegadeRaiderHoliday",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_970_Athena_Commando_F_RenegadeRaiderHoliday",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RenegadeRaiderHoliday.CP_Athena_Body_F_RenegadeRaiderHoliday",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RenegadeRaiderHoliday.CP_Head_F_RenegadeRaiderHoliday",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_RenegadeRaiderHoliday.CP_Hat_F_Commando_RenegadeRaiderHoliday",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_RenegadeRaiderHoliday",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Gingerbread Raider",
+        "Description": "Let the festivities begin.",
+        "Introduction": "Cosmetics.Filter.Season.15"
+      },
+      {
+        "Type": "Override",
+        "Name": "Arctic Adeline",
+        "ID": "Character_SportsFashion_Winter",
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_SportsFashion_Winter",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/Character_SportsFashion_Winter",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_SportsFashion_Winter.CP_Body_Commando_F_SportsFashion_Winter",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_SportsFashion_Winter.CP_Head_F_SportsFashion_Winter",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_SportsFashion_Winter_FaceAcc.CP_F_MED_SportsFashion_Winter_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_SportsFashion_Winter_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Arctic Adeline",
+        "Description": "Tis the season for fashion.",
+        "Introduction": "Cosmetics.Filter.Season.23"
+      },
+      {
+        "Type": "Override",
+        "Name": "Blizzabelle",
+        "ID": "CID_A_311_Athena_Commando_F_ScholarFestiveWinter",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_A_311_Athena_Commando_F_ScholarFestiveWinter",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_A_311_Athena_Commando_F_ScholarFestiveWinter",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_ScholarFestiveWinter.CP_Body_Commando_F_ScholarFestiveWinter",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_ScholarFestiveWinter.CP_Head_F_ScholarFestiveWinter",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_ScholarFestiveWinter_FaceAcc.CP_F_MED_ScholarFestiveWinter_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_ScholarFestiveWinter_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Blizzabelle",
+        "Description": "Voted Teen Queen of Winterfest by a jury of her witchy peers.",
+        "Introduction": "Cosmetics.Filter.Season.19"
+      },
+      {
+        "Type": "Override",
+        "Name": "Krisabelle",
+        "ID": "CID_A_310_Athena_Commando_F_ScholarFestive",
+        "HeroDefinition": "/Game/Athena/Heroes/HID_A_310_Athena_Commando_F_ScholarFestive",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_A_310_Athena_Commando_F_ScholarFestive",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_ScholarFestive.CP_Body_Commando_F_ScholarFestive",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_ScholarFestive.CP_Head_F_ScholarFestive",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_ScholarFestive_FaceAcc.CP_F_MED_ScholarFestive_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_ScholarFestive_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Krisabelle",
+        "Description": "Voted \"Most Festive Holiday Witch\" 3 years in a row.",
+        "Introduction": "Cosmetics.Filter.Season.19"
+      },
+      {
+        "Type": "Override",
+        "Name": "Underworld Desdemona",
+        "ID": "Character_ChaosDarkIce",
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_ChaosDarkIce",
+        "Assets": [
+          {
+            "AssetPath": "/Game/Athena/Items/Cosmetics/Characters/Character_ChaosDarkIce",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_ChaosDarkIce.CP_Athena_Body_F_ChaosDarkIce",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_ChaosDarkIce.CP_Athena_Head_F_ChaosDarkIce",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_ChaosDarkIce_FaceAcc.CP_F_MED_ChaosDarkIce_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Charms/CP_Charm_F_MED_Chaos_Tail.CP_Charm_F_MED_Chaos_Tail",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_ChaosDarkIce_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Underworld Desdemona",
+        "Description": "Fiendishly frosty.",
+        "Introduction": "Cosmetics.Filter.Season.24"
+      },
+      {
+        "Type": "Override",
+        "Name": "Tectonic Komplex",
+        "ID": "CID_A_420_Athena_Commando_F_NeonGraffitiLava",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_A_420_Athena_Commando_F_NeonGraffitiLava",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_A_420_Athena_Commando_F_NeonGraffitiLava",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_NeonGraffitiLava.CP_Body_Commando_F_NeonGraffitiLava",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_NeonGraffitiLava.CP_Head_F_NeonGraffitiLava",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_NeonGraffitiLava.CP_F_MED_NeonGraffitiLava",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Characters/CharacterParts/FaceAccessories/CP_F_MED_NeonGraffitiLava",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Tectonic Komplex",
+        "Description": "The world is waiting. Make your move.",
+        "Introduction": "Cosmetics.Filter.Season.20"
+      },
+      {
+        "Type": "Override",
+        "Name": "Ruby Shadows",
+        "ID": "CID_A_007_Athena_Commando_F_StreetFashionEclipse",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_A_007_Athena_Commando_F_StreetFashionEclipse",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_A_007_Athena_Commando_F_StreetFashionEclipse",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_StreetFashionEclipse.CP_Body_Commando_F_StreetFashionEclipse",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_StreetFashionEclipse.CP_Head_F_StreetFashionEclipse",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_FaceAcc_StreetFashionEclipse.CP_F_MED_FaceAcc_StreetFashionEclipse",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_FaceAcc_StreetFashionEclipse",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Ruby Shadows",
+        "Description": "Sometimes you gotta go dark.",
+        "Introduction": "Cosmetics.Filter.Season.15"
+      },
+      {
+        "Type": "Override",
+        "Name": "Wooly Warrior",
+        "ID": "CID_645_Athena_Commando_F_Wolly",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_645_Athena_Commando_F_Wolly",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_645_Athena_Commando_F_Wolly",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_Wolly.CP_Body_Commando_F_Wolly",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_Wolly.CP_Head_F_Wolly",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Wolly.CP_F_MED_Wolly",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Wolly",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Wooly Warrior",
+        "Description": "Ready for a comeback.",
+        "Introduction": "Cosmetics.Filter.Season.11"
+      },
+      {
+        "Type": "Override",
+        "Name": "Frost Squad",
+        "ID": "CID_972_Athena_Commando_F_ArcticCamoWoods",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_972_Athena_Commando_F_ArcticCamoWoods",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_972_Athena_Commando_F_ArcticCamoWoods",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_ArcticCamoWoods.CP_Body_Commando_F_ArcticCamoWoods",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_ArcticCamoWoods.CP_Head_F_ArcticCamoWoods",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_FaceAcc_ArcticCamoWoods.CP_F_MED_FaceAcc_ArcticCamoWoods",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_FaceAcc_ArcticCamoWoods",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Frost Squad",
+        "Description": "Ice cold tactics. Ice cold fashion.",
+        "Introduction": "Cosmetics.Filter.Season.15"
+      },
+      {
+        "Type": "Override",
+        "Name": "Piper Pace",
+        "ID": "Character_PizzaParty",
+        "Message": "Make sure to equip the default style of Piper Pace!",
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_PizzaParty",
+        "Assets": [
+          {
+            "AssetPath": "/Game/Athena/Items/Cosmetics/Characters/Character_PizzaParty",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_PizzaParty.CP_Athena_Body_F_PizzaParty",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_PizzaParty.CP_Athena_Head_F_PizzaParty",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_PizzaParty_FaceAcc.CP_F_MED_PizzaParty_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S26/Characters/T-Soldier-Character-PizzaParty-JacketOff.T-Soldier-Character-PizzaParty-JacketOff",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S26/T-Soldier-Character-PizzaParty-Alt.T-Soldier-Character-PizzaParty-Alt",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S26/Characters/T-Soldier-Character-PizzaParty-Blue.T-Soldier-Character-PizzaParty-Blue",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S26/Characters/T-Soldier-Character-PizzaParty-Yellow.T-Soldier-Character-PizzaParty-Yellow",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S26/Characters/T-Soldier-Character-PizzaParty-SuperLevelT1.T-Soldier-Character-PizzaParty-SuperLevelT1",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S26/Characters/T-Soldier-Character-PizzaParty-SuperLevelT2.T-Soldier-Character-PizzaParty-SuperLevelT2",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S26/Characters/T-Soldier-Character-PizzaParty-SuperLevelT3.T-Soldier-Character-PizzaParty-SuperLevelT3",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_PizzaParty_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Piper Pace",
+        "Description": "Deliver the victory.",
+        "Introduction": "Cosmetics.Filter.Season.26"
+      },
+      {
+        "Type": "Override",
+        "Name": "Era",
+        "ID": "Character_SilentTempo",
+        "Message": "Make sure to equip the default style of Era!",
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_SilentTempo",
+        "Assets": [
+          {
+            "AssetPath": "/Game/Athena/Items/Cosmetics/Characters/Character_SilentTempo",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_SilentTempo_Peril.CP_Athena_Body_F_SilentTempo_Peril",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_SilentTempo.CP_Athena_Head_F_SilentTempo",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_SilentTempo_Peril_FaceAcc.CP_F_MED_SilentTempo_Peril_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S25/Characters/T-Soldier-Hero-SilentTempo-PerilWater.T-Soldier-Hero-SilentTempo-PerilWater",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S25/T-Soldier-Hero-SilentTempo.T-Soldier-Hero-SilentTempo",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S25/Characters/T-Soldier-Hero-SilentTempo-PerilWater.T-Soldier-Hero-SilentTempo-PerilWater",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S25/Characters/T-Soldier-Hero-SilentTempo-PerilWaterHat.T-Soldier-Hero-SilentTempo-PerilWaterHat",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S25/Characters/T-Soldier-Hero-SilentTempo-PerilHat.T-Soldier-Hero-SilentTempo-PerilHat",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_SilentTempo_Peril_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Era",
+        "Description": "The past lives within her.",
+        "Introduction": "Cosmetics.Filter.Season.25"
+      },
+      {
+        "Type": "Override",
+        "Name": "Mizuki",
+        "ID": "Character_NitroFlow",
+        "Message": "Make sure to equip the default style of Mizuki!",
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_NitroFlow",
+        "Assets": [
+          {
+            "AssetPath": "/Game/Athena/Items/Cosmetics/Characters/Character_NitroFlow",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_NitroFlow.CP_Athena_Body_F_NitroFlow",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_NitroFlow.CP_Athena_Head_F_NitroFlow",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_NitroFlow_FaceAcc.CP_F_MED_NitroFlow_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_NitroFlow_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Mizuki",
+        "Description": "The depth of the ocean. The rage of the storm.",
+        "Introduction": "Cosmetics.Filter.Season.24"
+      },
+      {
+        "Type": "Override",
+        "Name": "Selene",
+        "ID": "Character_Sunlit",
+        "Message": "Make sure to equip the default style of Selene!",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/Hero_Sunlit",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/Character_Sunlit",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Sunlit.CP_Athena_Body_F_Sunlit",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_Sunlit.CP_Athena_Head_F_Sunlit",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Sunlit_FaceAcc.CP_F_MED_Sunlit_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Variants/S23/Characters/T-Soldier-Hero-Sunlit-Armor.T-Soldier-Hero-Sunlit-Armor",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Variants/S23/Characters/T-Soldier-Hero-Sunlit-Yellow.T-Soldier-Hero-Sunlit-Yellow",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Variants/S23/Characters/T-Soldier-Hero-Sunlit-T1.T-Soldier-Hero-Sunlit-T1",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Variants/S23/Characters/T-Soldier-Hero-Sunlit-T2.T-Soldier-Hero-Sunlit-T2",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/UI/Foundation/Textures/Icons/Heroes/Variants/S23/Characters/T-Soldier-Hero-Sunlit-T3.T-Soldier-Hero-Sunlit-T3",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Sunlit_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Selene",
+        "Description": "Her destiny lies in the stars.",
+        "Introduction": "Cosmetics.Filter.Season.23"
+      },
+      {
+        "Type": "Override",
+        "Name": "Paradigm (Reality-659)",
+        "ID": "Character_Meteorwomen_Alt",
+        "Message": "Make sure to equip the default style of Paradigm (Reality-659)!",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/Hero_Meteorwomen_Alt",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/Character_Meteorwomen_Alt",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Meteorwomen_Suit.CP_Athena_Body_F_Meteorwomen_Suit",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_Meteorwomen_Suit.CP_Athena_Head_F_Meteorwomen_Suit",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Meteorwomen_Suit_FaceAcc.CP_F_MED_Meteorwomen_Suit_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Meteorwomen_Suit_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Paradigm (Reality-659)",
+        "Description": "Her duty defies reality. One of The Seven.",
+        "Introduction": "Cosmetics.Filter.Season.22"
+      },
+      {
+        "Type": "Override",
+        "Name": "Sabina",
+        "ID": "CID_A_428_Athena_Commando_F_PinkWidow",
+        "Message": "Make sure to equip the default style of Sabina!",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_A_428_Athena_Commando_F_PinkWidow",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_A_428_Athena_Commando_F_PinkWidow",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_PinkWidow.CP_Athena_Body_F_PinkWidow",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_PinkWidow.CP_Athena_Head_F_PinkWidow",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_PinkWidowBraids_FaceAcc.CP_F_MED_PinkWidowBraids_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_PinkWidowBraids_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Sabina",
+        "Description": "Her bridges are burned, there's no turning back.",
+        "Introduction": "Cosmetics.Filter.Season.21"
+      },
+      {
+        "Type": "Override",
+        "Name": "The Imagined",
+        "ID": "CID_A_374_Athena_Commando_F_Binary",
+        "Message": "Make sure to equip the default style of The Imagined!",
+        "HeroDefinition": "/Game/Athena/Heroes/HID_A_374_Athena_Commando_F_Binary",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_A_374_Athena_Commando_F_Binary",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Binary.CP_Athena_Body_F_Binary",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_Binary.CP_Athena_Head_F_Binary",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_Binary_FaceAcc.CP_F_MED_Binary_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_Binary_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "The Imagined",
+        "Description": "Her past is the key to our future. One of The Seven.",
+        "Introduction": "Cosmetics.Filter.Season.20"
+      },
+      {
+        "Type": "Override",
+        "Name": "Haven",
+        "ID": "CID_A_291_Athena_Commando_F_IslandNomad",
+        "Message": "Make sure to equip the default style of Haven!",
+        "HeroDefinition": "/Game/Athena/Heroes/HID_A_291_Athena_Commando_F_IslandNomad",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_A_291_Athena_Commando_F_IslandNomad",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_IslandNomad.CP_Athena_Body_F_IslandNomad",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_IslandNomad.CP_Athena_Head_F_IslandNomad",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_IslandNomad_FaceAcc.CP_F_MED_IslandNomad_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_IslandNomad_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Haven",
+        "Description": "Raised by the Island. Born to defend it.",
+        "Introduction": "Cosmetics.Filter.Season.19"
+      },
+      {
+        "Type": "Override",
+        "Name": "Charlotte",
+        "ID": "CID_A_203_Athena_Commando_F_PunkKoi",
+        "Message": "Make sure to equip the default style of Charlotte!",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_A_203_Athena_Commando_F_PunkKoi",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_A_203_Athena_Commando_F_PunkKoi",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_PunkKoi.CP_Athena_Body_F_PunkKoi",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_PunkKoi.CP_Athena_Head_F_PunkKoi",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_PunkKoi_FaceAcc.CP_F_MED_PunkKoi_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_PunkKoi_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Charlotte",
+        "Description": "Your typical transforming, monster-slaying teen with a possessed sword.",
+        "Introduction": "Cosmetics.Filter.Season.18"
+      },
+      {
+        "Type": "Override",
+        "Name": "Sunny",
+        "ID": "CID_A_114_Athena_Commando_F_Believer",
+        "Message": "Make sure to equip the default style of Sunny!",
+        "HeroDefinition": "/Game/Athena/Heroes/HID_A_114_Athena_Commando_F_Believer",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_A_114_Athena_Commando_F_Believer",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_Believer.CP_Body_Commando_F_Believer",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_Believer.CP_Head_F_Believer",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_Believer_FaceAcc.CP_F_MED_Believer_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_Believer_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Sunny",
+        "Description": "Get me off of this rock.",
+        "Introduction": "Cosmetics.Filter.Season.17"
+      },
+      {
+        "Type": "Override",
+        "Name": "Redline",
+        "ID": "CID_162_Athena_Commando_F_StreetRacer",
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_162_Athena_Commando_F_StreetRacer",
+        "Message": null,
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_162_Athena_Commando_F_StreetRacer",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_StreetRacer.CP_Body_Commando_F_StreetRacer",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_StreetRacer.CP_Head_F_StreetRacer",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_StreetRacer.CP_Hat_F_Commando_StreetRacer",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_StreetRacer",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Redline",
+        "Description": "Revving beyond the limit.",
+        "Introduction": "Cosmetics.Filter.Season.5"
+      },
+      {
+        "Type": "Override",
+        "Name": "Ricochet Rox",
+        "ID": "CID_A_391_Athena_Commando_F_Nightingale",
+        "Message": null,
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_A_391_Athena_Commando_F_Nightingale",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_A_391_Athena_Commando_F_Nightingale",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Nightingale.CP_Athena_Body_F_Nightingale",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_Nightingale.CP_Athena_Head_F_Nightingale",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Nightingale_FaceAcc.CP_F_MED_Nightingale_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_Nightingale_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Ricochet Rox",
+        "Description": "Everyone's favorite mecha-fighting miss!",
+        "Introduction": "Cosmetics.Filter.Season.22"
+      },
+      {
+        "Type": "Override",
+        "Name": "Spectra Knight",
+        "ID": "Character_SnowKnight_Helm",
+        "Message": null,
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_SnowKnight_Helm",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/Character_SnowKnight_Helm",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_SnowKnight_Helm.CP_Athena_Body_F_SnowKnight_Helm",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_SnowKnight_HelmMannequin.CP_Athena_Head_F_SnowKnight_HelmMannequin",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_SnowKnight_Helm_FaceAcc.CP_F_MED_SnowKnight_Helm_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_SnowKnight_Helm_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Spectra Knight",
+        "Description": "There is honor in every knight.",
+        "Introduction": "Cosmetics.Filter.Season.27"
+      },
+      {
+        "Type": "Override",
+        "Name": "Teknique",
+        "ID": "CID_120_Athena_Commando_F_Graffiti",
+        "Message": null,
+        "HeroDefinition": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Heroes/HID_120_Athena_Commando_F_Graffiti",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/CID_120_Athena_Commando_F_Graffiti",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_120_Body_F_Graffiti.CP_120_Body_F_Graffiti",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_Graffiti.CP_Head_F_Graffiti",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_Graffiti.CP_Hat_F_Commando_Graffiti",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/Hats/CP_Hat_F_Commando_Graffiti",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Teknique",
+        "Description": "Spray up a storm.",
+        "Introduction": "Cosmetics.Filter.Season.4",
+        "Set": "Cosmetics.Set.AerosolAssassins"
+      },
+      {
+        "Type": "Override",
+        "Name": "Holiday Boxy",
+        "ID": "Character_CardboardCrew_Holiday",
+        "Message": null,
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_CardboardCrew_Holiday",
+        "Assets": [
+          {
+            "AssetPath": "/Game/Athena/Items/Cosmetics/Characters/Character_CardboardCrew_Holiday",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_CardboardCrew_Holiday.CP_Athena_Body_F_CardboardCrew_Holiday",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_CardboardCrew_Holiday.CP_Athena_Head_F_CardboardCrew_Holiday",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_CardboardCrew_Holiday_FaceAcc.CP_F_MED_CardboardCrew_Holiday_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_CardboardCrew_Holiday_FaceAcc.CP_F_MED_CardboardCrew_Holiday_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Holiday Boxy",
+        "Description": "Always be present.",
+        "Introduction": "Cosmetics.Filter.Season.28"
+      },
+      {
+        "Type": "Override",
+        "Name": "Aura",
+        "ID": "CID_397_Athena_Commando_F_TreasureHunterFashion",
+        "Message": null,
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_CardboardCrew_Holiday",
+        "Assets": [
+          {
+            "AssetPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_397_Athena_Commando_F_TreasureHunterFashion",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_TreasureHunterFashion.CP_Body_Commando_F_TreasureHunterFashion",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_TreasureHunterFashion.CP_Head_F_TreasureHunterFashion",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_TreasureHunterFashion.CP_F_MED_TreasureHunterFashion",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_TreasureHunterFashion.CP_F_MED_TreasureHunterFashion",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Aura",
+        "Description": "Get the goods in style.",
+        "Introduction": "Cosmetics.Filter.Season.8"
+      },
+      {
+        "Type": "Override",
+        "Name": "Runway Racer",
+        "ID": "Character_RaiderPink_Sherbert",
+        "Message": null,
+        "HeroDefinition": "/BRCosmetics/Athena/Heroes/Hero_RaiderPink_Sherbert",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Plugins/GameFeatures/BRCosmetics/Content/Athena/Items/Cosmetics/Characters/Character_RaiderPink_Sherbert",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RaiderPink_Sherbert.CP_Body_Commando_F_RaiderPink_Sherbert",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RaiderPink.CP_Head_F_RaiderPink",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_RaiderPink_Sherbert.CP_F_MED_RaiderPink_Sherbert",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Characters/CharacterParts/FaceAccessories/CP_F_MED_RaiderPink_Sherbert",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Runway Racer",
+        "Description": "The cutting edge of elite racing.",
+        "Introduction": "Cosmetics.Filter.Season.27"
+      },
+      {
+        "Type": "Override",
+        "Name": "Explorer Emilie",
+        "ID": "Character_VitalInventorBlock",
+        "Message": null,
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_VitalInventorBlock",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/Character_VitalInventorBlock",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_VitalInventorBlock.CP_Athena_Body_F_VitalInventorBlock",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_VitalInventorBlock.CP_Athena_Head_F_VitalInventorBlock",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_VitalInventorBlock_FaceAcc.CP_F_MED_VitalInventorBlock_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-VitalInventorBlock-Hat.T-Soldier-Hero-VitalInventorBlock-Hat",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-VitalInventorBlock-Trek.T-Soldier-Hero-VitalInventorBlock-Trek",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_VitalInventorBlock_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Explorer Emilie",
+        "Description": "See everything.",
+        "Introduction": "Cosmetics.Filter.Season.28"
+      },
+      {
+        "Type": "Override",
+        "Name": "Hope",
+        "ID": "Character_VoidRedemption_Rebel",
+        "Message": null,
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_VoidRedemption_Rebel",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/Character_VoidRedemption_Rebel",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_VoidRedemption_Rebel.CP_Athena_Body_F_VoidRedemption_Rebel",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_VoidRedemption_Rebel.CP_Athena_Head_F_VoidRedemption_Rebel",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_VoidRedemption_Rebel_FaceAcc.CP_F_MED_VoidRedemption_Rebel_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-VoidRedemption-RebelHat.T-Soldier-Hero-VoidRedemption-RebelHat",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-VoidRedemption-RebelHeart.T-Soldier-Hero-VoidRedemption-RebelHeart",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-VoidRedemption-RebelRuby.T-Soldier-Hero-VoidRedemption-RebelRuby",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-VoidRedemption-Rebel-NoAssc.T-Soldier-Hero-VoidRedemption-Rebel-NoAssc",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_VoidRedemption_Rebel_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Hope",
+        "Description": "Make some trouble. Change the world.",
+        "Introduction": "Cosmetics.Filter.Season.28"
+      },
+      {
+        "Type": "Override",
+        "Name": "Renegade Lynx",
+        "ID": "Character_RebelClaw_Aviator",
+        "Message": null,
+        "HeroDefinition": "/Game/Athena/Heroes/Hero_RebelClaw_Aviator",
+        "Assets": [
+          {
+            "AssetPath": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/Character_RebelClaw_Aviator",
+            "Swaps": [
+              {
+                "type": "string",
+                "search": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RebelClaw_Aviator.CP_Athena_Body_F_RebelClaw_Aviator",
+                "replace": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Fallback.CP_Athena_Body_F_Fallback"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Athena_Head_F_RebelClaw_Aviator.CP_Athena_Head_F_RebelClaw_Aviator",
+                "replace": "/Game/Characters/CharacterParts/Common/CP_Head_Med_Empty.CP_Head_Med_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_RebelClaw_Aviator_FaceAcc.CP_F_MED_RebelClaw_Aviator_FaceAcc",
+                "replace": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_FaceAcc_Empty.CP_M_FaceAcc_Empty"
+              },
+              {
+                "type": "string",
+                "search": "/Game/Characters/CharacterParts/Charms/CP_Charm_RebelClaw_Aviator_Tail.CP_Charm_RebelClaw_Aviator_Tail",
+                "replace": "/Game/Characters/CharacterParts/Charms/NoCharm.NoCharm"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S27/Characters/T-Soldier-Character-RebelClaw-AviatorGlasses.T-Soldier-Character-RebelClaw-AviatorGlasses",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S27/Characters/T-Soldier-Character-RebelClaw-AviatorMask.T-Soldier-Character-RebelClaw-AviatorMask",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S27/Characters/T-Soldier-Character-RebelClaw-AviatorCobalt.T-Soldier-Character-RebelClaw-AviatorCobalt",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S27/Characters/T-Soldier-Character-RebelClaw-AviatorAmber.T-Soldier-Character-RebelClaw-AviatorAmber",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              },
+              {
+                "type": "string",
+                "search": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S27/Characters/T-Soldier-Hero-RebelClawAviator-SuperLevelT1.T-Soldier-Hero-RebelClawAviator-SuperLevelT1",
+                "replace": "/Game/Athena/HUD/Bacchus/HUDLayoutTool/HLT_Icons/T-HLT-Lock.T-HLT-Lock"
+              }
+            ],
+            "IsID": true
+          },
+          {
+            "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_RebelClaw_Aviator_FaceAcc",
+            "Swaps": [],
+            "Invalidate": true
+          }
+        ],
+        "LobbyName": "Renegade Lynx",
+        "Description": "A raider on her ninth life.",
+        "Introduction": "Cosmetics.Filter.Season.27"
+      },
+      {
+        "Type": "Override",
+        "Name": "Default",
+        "ID": "CID_A_272_Athena_Commando_F_Prime",
+        "Override": "https://i.imgur.com/A44O1je.png",
+        "Message": "PLEASE READ:\n\u30fbThis will swap EVERY default in the game.\n\u30fbTo equip this, go to the skins in the locker and select the x icon.\n\u30fbThe skin will NOT show the character preview in the locker but will show in the lobby and in-game.",
+        "Assets": [
+          {
+            "AssetPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Prime_C",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Prime",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Prime_E",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Prime_B",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Prime_G",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_Prime_A",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Prime",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_Prime_G",
+            "Swaps": [],
+            "Invalidate": true
+          },
+          {
+            "AssetPath": "/Game/Environments/FrontEnd/Blueprints/ItemPreview/ItemOnPawnPreview",
+            "Swaps": [],
+            "Invalidate": true,
+            "UsePersistentDownload": false
+          }
+        ]
+      }
+    ]
+  }
