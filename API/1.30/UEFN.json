@@ -1156,7 +1156,7 @@
         "Type": "Override",
         "Name": "Aura (NEW)",
         "ID": "CID_397_Athena_Commando_F_TreasureHunterFashion",
-        "Message": null,
+        "Message": "NEWW",
         "HeroDefinition": "/Game/Athena/Heroes/Hero_CardboardCrew_Holiday",
         "Assets": [
           {
@@ -1186,7 +1186,7 @@
             "Invalidate": true
           }
         ],
-        "LobbyName": "Aura",
+        "LobbyName": "Aura (NEW)",
         "Description": "Get the goods in style.",
         "Introduction": "Cosmetics.Filter.Season.8"
       },
