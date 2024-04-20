@@ -2,37 +2,37 @@
     "Downloadables": [
       {
         "tag": "BR",
-        "version": 21,
+        "version": 22,
         "zip": "http://br.wslt.xyz/uefn.zip"
       },
       {
         "tag": "BR-2",
-        "version": 21,
+        "version": 22,
         "zip": "http://br-2.wslt.xyz/uefn.zip"
       },
       {
         "tag": "BR-3",
-        "version": 21,
+        "version": 22,
         "zip": "http://br-3.wslt.xyz/uefn.zip"
       },
       {
         "tag": "BR-4",
-        "version": 21,
+        "version": 22,
         "zip": "http://br-4.wslt.xyz/uefn.zip"
       },
       {
         "tag": "BR-5",
-        "version": 21,
+        "version": 22,
         "zip": "http://br-5.wslt.xyz/uefn.zip"
       },
       {
         "tag": "NSFW",
-        "version": 21,
+        "version": 22,
         "zip": "http://nsfw.wslt.xyz/uefn.zip"
       },
       {
         "tag": "CUSTOM",
-        "version": 21,
+        "version": 22,
         "zip": "http://custom.wslt.xyz/uefn.zip"
       }
     ],
