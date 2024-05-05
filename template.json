@@ -1,0 +1,36 @@
+{
+    "Name": "Boogie Down to $Name",
+    "LobbyName": "$Name",
+    "Description": "$Description",
+    "Icon": "https://fortnite-api.com/images/cosmetics/br/$Asset/icon.png",
+    "Swapicon": "https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+    "Message": "Made by KIZILANDO",
+    "Assets": [
+        {
+            "AssetPath": "/BRCosmetics/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "Swaps": [
+              {
+                  "type": "string",
+                  "search": "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                  "replace": "$Male"
+                },
+                {
+                  "type": "string",
+                  "search": "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF",
+                  "replace": "$Female"
+                },
+                {
+                  "type": "string",
+                  "search": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-BoogieDown.T-Icon-Emotes-E-BoogieDown",
+                  "replace": "$small"
+                },
+                {
+                  "type": "string",
+                  "search": "/BRCosmetics/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-BoogieDown-L.T-Icon-Emotes-E-BoogieDown-L",
+                  "replace": "$large"
+                }
+            ]
+        }
+      ]
+  }
+ 
