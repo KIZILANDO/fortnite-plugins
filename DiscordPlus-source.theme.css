@@ -1040,12 +1040,6 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .theme-dark .tutorialContainer_f9623d .childWrapper_f90abb,
 .theme-light .theme-dark .tutorialContainer_f9623d .childWrapper_f90abb,
-.theme-light .tutorialContainer_f9623d .childWrapper_f90abb {
-	background-image: var(--dplus-icon-home-dark);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
 .theme-light .tutorialContainer_f9623d .childWrapper_f90abb {background-image: var(--dplus-icon-home-light);}
 
 		/*--- 11 Channels Sidebar ---*/
