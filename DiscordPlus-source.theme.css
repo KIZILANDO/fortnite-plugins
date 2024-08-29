@@ -513,9 +513,6 @@ body { background-color: var(--dplus-accent-ui); }
 
 		/*-- 4.1 Display Font --*/
 
-body, button {
-	font-family: var(--font-display);
-}
 		
 		/*-- 4.2 Text Font --*/
 ::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
