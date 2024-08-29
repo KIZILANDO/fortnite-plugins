@@ -528,9 +528,6 @@ body, button {
 .emojiAliasPlaceholder_dc1809, /*emoji name placeholder*/
 .topic_bf3bbb, /*channel topic in chat header*/
 .content_bf3bbb, /*channel topic popup body*/
-.bd-description /*BD: plugin/theme desc*/ {
-	font-family: var(--dplus-font-body), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
-}
 		/*-- 4.3 Names, Titles, and Headers Font --*/
 header, h1,
 .nameAndDecorators_d808b0, /*name in member list*/
