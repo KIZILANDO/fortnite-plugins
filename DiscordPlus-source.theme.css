@@ -81,7 +81,9 @@
 @import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
 @import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
 /* Main fonts */
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 /* Localized fonts */
+@import url(https://fonts.googleapis.com/css2?family=Kosugi&family=RocknRoll+One&family=Gothic+A1&family=Black+Han+Sans&family=PT+Sans+Caption&family=Russo+One&family=Palanquin+Dark&family=Raleway:wght@500&family=Commissioner&family=Alegreya+Sans:wght@700&family=Mitr&family=Lalezar&display=swap);
 		
 		/*--- 2 Default Values ---*/
 
@@ -511,6 +513,9 @@ body { background-color: var(--dplus-accent-ui); }
 
 		/*-- 4.1 Display Font --*/
 
+body, button {
+	font-family: var(--font-display);
+}
 		
 		/*-- 4.2 Text Font --*/
 ::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
@@ -523,7 +528,9 @@ body { background-color: var(--dplus-accent-ui); }
 .emojiAliasPlaceholder_dc1809, /*emoji name placeholder*/
 .topic_bf3bbb, /*channel topic in chat header*/
 .content_bf3bbb, /*channel topic popup body*/
-
+.bd-description /*BD: plugin/theme desc*/ {
+	font-family: var(--dplus-font-body), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
+}
 		/*-- 4.3 Names, Titles, and Headers Font --*/
 header, h1,
 .nameAndDecorators_d808b0, /*name in member list*/
@@ -550,7 +557,9 @@ header, h1,
 .title_fc4f04, /*channel name in chat header*/
 .title-3hptVQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
-
+.timestamp_f9f2ca /*chat message hover timestamp (counts as a header)*/ {
+	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', var(--dplus-font-header-ko), 'Black Han Sans', var(--dplus-font-header-ru), 'Russo One', var(--dplus-font-header-hi), 'Palanquin Dark', var(--dplus-font-header-th), 'Mitr', var(--dplus-font-header-el), 'Alegreya Sans', 'Lalezar', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
+}
 		
 		/*--- 5 Load/Disconnect + Crash ---*/
 		
