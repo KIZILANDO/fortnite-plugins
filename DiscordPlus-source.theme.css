@@ -510,6 +510,7 @@ body { background-color: var(--dplus-accent-ui); }
 		/*--- 4 Fonts ---*/
 
 		/*-- 4.1 Display Font --*/
+
 		
 		/*-- 4.2 Text Font --*/
 ::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
@@ -549,11 +550,12 @@ header, h1,
 .title_fc4f04, /*channel name in chat header*/
 .title-3hptVQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
+
 		
 		/*--- 5 Load/Disconnect + Crash ---*/
 		
 /* Loading page (disconnect error) */
-.container_e40c16 { background-color: hsla(0, 0%, 0%, 0.68) }
+.container_e40c16 { background-color: hsla(0, 0%, 0%, 0%) }
 .quote-3aooyW {
 	font-size: 20px !important;
 	margin-bottom: 0px !important;
