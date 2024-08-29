@@ -523,6 +523,7 @@ body { background-color: var(--dplus-accent-ui); }
 .emojiAliasPlaceholder_dc1809, /*emoji name placeholder*/
 .topic_bf3bbb, /*channel topic in chat header*/
 .content_bf3bbb, /*channel topic popup body*/
+
 		/*-- 4.3 Names, Titles, and Headers Font --*/
 header, h1,
 .nameAndDecorators_d808b0, /*name in member list*/
@@ -549,6 +550,7 @@ header, h1,
 .title_fc4f04, /*channel name in chat header*/
 .title-3hptVQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
+
 		
 		/*--- 5 Load/Disconnect + Crash ---*/
 		
