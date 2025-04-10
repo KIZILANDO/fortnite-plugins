@@ -42,7 +42,7 @@ def main():
     slow_print("🪵 TUNG TUNG TUNG TUNG SAHUR", style="bold cyan")
 
     answer = console.input(Panel("[bold green]Étape 1 à suivre dans mission1.py[/bold green]\nTrouve le mdp et reviens ici 👀(laisse cette fenêtre ouverte)", title="🚨 Mission 1"))
-    if(answer==base64.b64decode("SXNtYVNjYW05NA==").decode("utf-8")):
+    if(answer==base64.b64decode("UGxheWJvaUNhcnRp").decode("utf-8")):
         slow_print("💀 Bien joué, tu es un vrai nigger... HACKER hacker je me suis trompé !", style="red")
     else:
         slow_print("🚨 ERREUR ERREUR. Extinction en cours...")
